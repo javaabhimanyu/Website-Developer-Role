@@ -1,0 +1,25 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #eventsContainer {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .eventCard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .eventCard {
+      padding: 12px;
+    }
+  }
+  
